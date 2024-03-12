@@ -1,0 +1,4 @@
+#inventory.yaml
+[web_servers]
+ans.johnlord.comm
+docker.johnlord.comm
