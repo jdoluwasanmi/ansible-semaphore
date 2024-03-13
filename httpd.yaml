@@ -1,6 +1,6 @@
 ---
 - name: Install Apache
-  hosts: nginx.johnlord.comm
+  hosts: nagios.johnlord.comm
   become: true
   tasks:
   - name: Install httpd
