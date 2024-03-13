@@ -1,7 +1,7 @@
 #playbook.yaml
 ---
 - name: Get hostname and IP address of Alpine hosts
-  hosts: nagios.johnlord.comm
+  hosts: ans.johnlord.comm
   gather_facts: yes
   tasks:
     - name: Display hostname and IP address
