@@ -1,7 +1,7 @@
 #playbook.yaml
 ---
 - name: Get hostname and IP address of Alpine hosts
-  hosts: dns.johnlord.comm,docker.johnlord.comm
+  hosts: docker.johnlord.comm
   gather_facts: yes
   tasks:
     - name: Display hostname and IP address
